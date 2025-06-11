@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"strings"
 )
 
 type Company struct {
@@ -41,7 +42,7 @@ func main() {
 		list := idx + 1
 		fmt.Printf("---User %d---\n\n", list)
 		fmt.Printf("Name: %s\n", user.Name)
-		fmt.Printf("Email: %s\n", user.Email)
+		fmt.Printf("Email: %s\n", strings.ToLower(user.Email))
 		fmt.Println("Company:")
 		fmt.Printf("  Name: %s\n", user.Company.Name)
 		fmt.Printf("  Catch Phrase: %s\n", user.Company.CatchPhrase)
