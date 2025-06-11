@@ -1,5 +1,32 @@
 # UNMARSHALLING `JSON` DATA FROM FETCH API IN GO
-This program demonstrates the process of fetching data API in Go and the process of unmarshalling `JSON` file to types needed in Go.
+his project demonstrates how to fetch data from a public API using Go's standard net/http package, parse the JSON response, unmarshal it into Go types (structs), and display the data cleanly in the terminal.
+
+## Features
+- Makes HTTP GET requests using Go's net/http package.
+- Parses and unmarshals JSON responses into native Go types.
+- Prints structured and readable output in the terminal.
+- Handles basic errors such as failed requests or malformed JSON.
+
+## Concepts Demonstrated
+- HTTP requests with net/http
+- Reading response bodies
+- JSON parsing with encoding/json
+- Struct definition for JSON unmarshaling
+- Data transformation and formatting
+- Graceful error handling
+
+## Example Output
+```bash
+---User 1---
+
+Name: Leanne Graham
+Email: sincere@april.biz
+Company:
+  Name: Romaguera-Crona
+  Catch Phrase: Multi-layered client-server neural-net
+  Business Service: harness real-time e-markets
+
+```
 
 ## How to run this program
 ### Prerequisite
