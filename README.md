@@ -1,5 +1,5 @@
 # UNMARSHALLING `JSON` DATA FROM FETCH API IN GO
-his project demonstrates how to fetch data from a public API using Go's standard net/http package, parse the JSON response, unmarshal it into Go types (structs), and display the data cleanly in the terminal.
+This project demonstrates how to fetch data from https://jsonplaceholder.typicode.com/users using Go's standard net/http package, parse the JSON response, unmarshal it into Go types (structs), and display the data cleanly in the terminal.
 
 ## Features
 - Makes HTTP GET requests using Go's net/http package.
