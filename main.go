@@ -44,8 +44,8 @@ func main() {
 		fmt.Printf("Email: %s\n", user.Email)
 		fmt.Println("Company:")
 		fmt.Printf("  Name: %s\n", user.Company.Name)
-		fmt.Printf("  CatchPhrase: %s\n", user.Company.CatchPhrase)
-		fmt.Printf("  BS: %s\n", user.Company.BS)
+		fmt.Printf("  Catch Phrase: %s\n", user.Company.CatchPhrase)
+		fmt.Printf("  Business Service: %s\n", user.Company.BS)
 		fmt.Println("")
 	}
 }
